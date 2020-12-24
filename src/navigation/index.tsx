@@ -15,7 +15,7 @@ const Tab = createBottomTabNavigator()
 
 const AuthStack = () => {
     return (
-        <Stack.Navigator initialRouteName="Message" screenOptions={{ headerShown: false }}>
+        <Stack.Navigator initialRouteName="Profile" screenOptions={{ headerShown: false }}>
             <Stack.Screen name="WelcomeAuth" component={WelcomeAuth} />
             <Stack.Screen name="VerificationAuth" component={VerificationAuth} />
             <Stack.Screen name="Message" component={Message} />
